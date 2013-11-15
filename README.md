@@ -831,24 +831,24 @@
       , aTime;
 
     // good
-    var once,
-        upon,
-        aTime;
+    var once
+      , upon
+      , aTime;
 
     // bad
-    var hero = {
-        firstName: 'Bob'
-      , lastName: 'Parr'
-      , heroName: 'Mr. Incredible'
-      , superPower: 'strength'
-    };
-
-    // good
     var hero = {
       firstName: 'Bob',
       lastName: 'Parr',
       heroName: 'Mr. Incredible',
       superPower: 'strength'
+    };
+
+    // good
+    var hero = {
+        firstName: 'Bob'
+      , lastName: 'Parr'
+      , heroName: 'Mr. Incredible'
+      , superPower: 'strength'
     };
     ```
 
