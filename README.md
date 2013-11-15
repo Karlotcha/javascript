@@ -885,16 +885,10 @@
 
 ## <a name='semicolons'>Semicolons</a>
 
-  - **Yup.**
+  - **Use only semicolons when needed.**
 
     ```javascript
     // bad
-    (function() {
-      var name = 'Skywalker'
-      return name
-    })()
-
-    // good
     (function() {
       var name = 'Skywalker';
       return name;
@@ -902,9 +896,9 @@
 
     // good
     ;(function() {
-      var name = 'Skywalker';
-      return name;
-    })();
+      var name = 'Skywalker'
+      return name
+    })()
     ```
 
     **[[⬆]](#TOC)**
